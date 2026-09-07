@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+}
+
+header {
+    padding: 50px 10%;
+    background-color: #1e3a8a;
+    color: white;
+}
+
+main {
+    width: 75%;
+    margin: 40px auto;
+}
+
+main p {
+    margin: 25px 0;
+    line-height: 1.8;
+}
+
+main p::first-letter {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+main p::first-line {
+    font-weight: bold;
+}
+
+mark {
+    background-color: #fde68a;
+    padding: 3px;
+}
+
+blockquote {
+    margin: 35px 0;
+    padding: 25px;
+    border-left: 6px solid #2563eb;
+    background-color: #dbeafe;
+    font-style: italic;
+}

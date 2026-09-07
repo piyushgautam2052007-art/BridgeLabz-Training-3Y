@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+header {
+    background-color: #111827;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+section {
+    min-height: 70vh;
+    padding: 100px 10%;
+    border-bottom: 5px solid white;
+}
+
+.linear {
+    background: linear-gradient(135deg, #2563eb, #9333ea);
+}
+
+.radial {
+    background: radial-gradient(circle, #f97316, #7c2d12);
+}
+
+.fixed-section {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0.55)
+    ),
+    url("https://via.placeholder.com/1200x700");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+}
+
+footer {
+    background-color: #111827;
+    padding: 25px;
+    text-align: center;
+}
