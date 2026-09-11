@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    padding: 20px;
+    background-color: #eeeeee;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 150px;
+    padding: 30px;
+    transition: border-color 0.3s;
+}
+
+.solid {
+    border: 4px solid black;
+}
+
+.dashed {
+    border: 4px dashed black;
+}
+
+.double {
+    border: 6px double black;
+}
+
+.groove {
+    border: 6px groove black;
+}
+
+.rounded {
+    border: 4px solid black;
+    border-radius: 25px;
+    padding: 40px;
+}
+
+.box:hover {
+    border-color: blue;
+}
+
+footer {
+    padding: 20px;
+    background-color: #eeeeee;
+}

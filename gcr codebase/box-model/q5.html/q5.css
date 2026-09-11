@@ -1,0 +1,44 @@
+input[type="text"] {
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+a[href^="https"] {
+    color: green;
+}
+
+a:hover {
+    color: red;
+}
+
+input:focus {
+    background-color: lightyellow;
+}
+
+li:nth-child(2) {
+    color: blue;
+}
+
+h1::before {
+    content: "★ ";
+}
+
+h1::after {
+    content: " ★";
+}
+
+.parent > p {
+    color: red;
+}
+
+.parent + p {
+    color: green;
+}
+
+.parent ~ p {
+    background-color: lightgray;
+}
+
+.parent span {
+    color: purple;
+}

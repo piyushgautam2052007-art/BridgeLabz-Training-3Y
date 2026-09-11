@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin {
+    background-color: lightgray;
+    padding: 30px;
+}
+
+.border {
+    background-color: orange;
+    border: 10px solid black;
+    padding: 20px;
+}
+
+.padding {
+    background-color: lightgreen;
+    padding: 30px;
+}
+
+.content {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

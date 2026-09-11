@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 20px;
+    text-align: center;
+    overflow: auto;
+    max-width: 300px;
+}
+
+.box1 {
+    width: 200px;
+    height: 150px;
+    background-color: lightblue;
+}
+
+.box2 {
+    width: 40%;
+    height: 20vh;
+    background-color: lightgreen;
+    min-height: 150px;
+}
+
+.box3 {
+    width: 15em;
+    height: 250px;
+    background-color: lightpink;
+}
