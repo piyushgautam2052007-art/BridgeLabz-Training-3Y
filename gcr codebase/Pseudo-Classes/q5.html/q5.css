@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f2f2f2;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+.buttons {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.primary {
+    background: blue;
+    color: white;
+    border: 2px solid blue;
+}
+
+.secondary {
+    background: gray;
+    color: white;
+    border: 2px solid gray;
+}
+
+.outline {
+    background: white;
+    color: blue;
+    border: 2px solid blue;
+}
+
+button:hover {
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: 3px solid orange;
+    outline-offset: 3px;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

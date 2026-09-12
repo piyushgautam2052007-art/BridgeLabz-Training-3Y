@@ -1,0 +1,54 @@
+p {
+    font-size: 18px;
+}
+
+.highlight {
+    color: blue;
+    font-weight: bold;
+}
+
+#special {
+    color: red;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid green;
+}
+
+.parent > p {
+    background: lightblue;
+}
+
+.parent + p {
+    color: purple;
+}
+
+.parent ~ p {
+    margin-left: 20px;
+}
+
+.parent span {
+    color: orange;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+header,
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #222;
+    color: white;
+}
+
+main {
+    padding: 40px;
+}
+
+a {
+    text-decoration: none;
+}

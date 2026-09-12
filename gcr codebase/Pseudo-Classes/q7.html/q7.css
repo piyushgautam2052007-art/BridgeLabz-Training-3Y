@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg, #dbeafe, #f5d0fe);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px #999;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input,
+select,
+button {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+input:focus,
+select:focus {
+    outline: 3px solid blue;
+}
+
+button {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
