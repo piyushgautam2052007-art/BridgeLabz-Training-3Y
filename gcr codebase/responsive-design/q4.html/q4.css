@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    text-align: center;
+    padding: 8%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+p {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+@media (max-width: 700px) {
+    .content {
+        padding: 12%;
+    }
+
+    p {
+        line-height: 1.8;
+    }
+}
