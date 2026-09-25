@@ -1,0 +1,21 @@
+.hero {
+    background: #f1f5f9;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}

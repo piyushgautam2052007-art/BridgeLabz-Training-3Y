@@ -1,0 +1,5 @@
+.list-group-item {
+    min-height: 58px;
+    display: flex;
+    align-items: center;
+}
